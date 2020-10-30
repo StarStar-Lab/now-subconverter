@@ -7,9 +7,6 @@ on:
         description: 'commit message'
         required: true
         default: 'Update subconverter'
-  push:
-    paths:
-    - 'subconverter/**'
 
 jobs:
   Build:
